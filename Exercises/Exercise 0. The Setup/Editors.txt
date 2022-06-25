@@ -1,0 +1,6 @@
+Visual Studio Code: https://code.vistualstudio.com | My choice.
+Notepad++: https://notepad-plus-plus.org
+gEdit: https://github.com/GNOME/gedit
+Textmate: https://github.com/textmate/textmate
+SciTE: http://www.scintilla.org/SciTE.html
+jEdit: http://www.jedit.org
