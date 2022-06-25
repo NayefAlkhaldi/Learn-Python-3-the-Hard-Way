@@ -1,1 +1,0 @@
-# I found one, it was really fun. Link: http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
