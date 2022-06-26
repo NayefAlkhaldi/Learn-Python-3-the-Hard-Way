@@ -1,0 +1,5 @@
+name = nahef
+age = 13
+place = home
+collected_items = Camera, Phone, Gun
+wins = 10

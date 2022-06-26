@@ -1,0 +1,6 @@
+A flowchart is a graphical representations of steps. 
+It was originated from computer science as a tool for 
+representing algorithms and programming logic but had 
+extended to use in all other kinds of processes. Nowadays, 
+flowcharts play an extremely important role in displaying 
+information and assisting reasoning.

@@ -1,0 +1,2 @@
+# Done!
+# link: https://pythonprogramminglanguage.com/multiple-inheritance/#:~:text=Multiple%20Inheritance%20In%20Python%20a%20class%20can%20inherit,This%20is%20a%20concept%20from%20object%20orientated%20programming.
