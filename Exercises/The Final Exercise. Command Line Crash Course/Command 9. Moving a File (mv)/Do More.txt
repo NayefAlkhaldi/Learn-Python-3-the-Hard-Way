@@ -1,8 +1,0 @@
-1:
-> cd ~
-> cd temp
-> mkdir anotherplace
-> mv newplace\awesome.txt anotherplace
-> ls anotherplace
-> mv anotherplace\awesome.txt newplace
-> ls newplace
