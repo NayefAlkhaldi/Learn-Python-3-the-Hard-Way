@@ -1,0 +1,163 @@
+Exercise 0:
+
+Powershell: Command interpreter.
+mkdir: Create directories.
+cd: Change\Enter directory.
+ls: List files and directories.
+powershell (exit): exit from powershell
+text editor: Edits a program scripts.
+quit(): Exit Python shell or script.
+
+Exercise 1:
+
+File: container in a computer system for storing information.
+Folder: A set of files.
+.py: File extension (Python).
+print: Display a string, number, function, type, etc.
+"", '': String quotation.
+( ): Tuples. Usually used on functions.
+SyntaxError: Syntax means the arrangement of letters and symbols in code.
+EOL: End of line.
+# (octothorpe): comment.
+
+Exercise 2:
+
+No such a new character or symbol.
+
+Exercise 3:
+
++ (plus): Addition.
+- (minus): Subtraction.
+/ (slash): Divide.
+// (double slash): Divide and then transfer the number to integer.
+* (asterisk): Multiplication.
+% (percent): Returns the reminder after dividation.
+< (less-than): Less than.
+> (greater-than): Greater than.
+<= (less-than-equal): Less than or equal.
+>= (greater-than-equal): Greater than or equal.
+,: comma.
+True: A boolean value of True.
+False: A boolean value of False.
+int(): Function used to return a number that's not floated.
+float(): A function used to return the floated value of a number.
+
+Exercise 4:
+
+variable: The value stored in a variable can be changed during program execution.
+_: Underscore.
+=: The value of a variable is..
+==: Equals to.
+f: Format.
+{}: Barces, curley brackets. Mostly used on format and dictionaries.
+
+Exericse 5:
+
+format: format a string with a blank braces.
+': single-string quotation
+
+Exercise 7:
+
+str(): String format.
+end=<str>: The end of the string is..
+
+Exercise 8:
+
+No such a new character or symbol.
+
+Exercise 9:
+
+\n: New line escape sequence.
+""": Triple-string quotation Meaning no spaces between strings.
+
+Exercise 10:
+
+\t: Tab escape sequence.
+\\: Slash escape sequence.
+Escape Sequences: Include special characters in strings.
+\': Single-string quoatation.
+\": Double-string quoatation.
+\a: ASCII bell (BEL).
+\b: Backspace.
+\f: Formfeed.
+\N{name}: Character named name in the Unicode database (Unicode only).
+\r: Carriage return (CR).
+\uxxxx: Character with 16-bit hex value xxxx.
+\Uxxxxxxxx: Character with 32-bit hex value xxxxxxxx.
+\v: Vertical tab (VT).
+\000: Character with octal value 000.
+\xhh: Character with hex value hh.
+''': Single-triple-string quotation. The same as Double-triple-string quoatation.
+
+Exercise 11:
+
+input(): The input () function allows taking user input.
+
+Exercise 12:
+
+pydoc: pydoc sys at a shell prompt will display documentation on the sys module, in a style similar to the manual pages shown by the Unix man command. The argument to pydoc can be the name of a function, module, or package, or a dotted reference to a class, method, or function within a module or module in a package.
+open: Open a file.
+Operating System: The operating system, also known as an “OS,” interfaces with the computer’s hardware and provides services that applications can use. What Does an Operating System Do? An operating system is the core set of software on a device that keeps everything together.
+System: A computer system is a "complete" computer that includes the hardware, operating system (main software ), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.
+os: Operating System.
+sys: System.
+
+Exercise 13:
+
+from: From <path>.
+import: Import a module or package.
+module: A tool that gives you features.
+argv (argument variables): The list of command line arguments passed to a Python script.
+
+Exercise 14:
+
+Zork and Adventure: A series of classic video games in the genre known as adventure games.
+
+Exercise 15:
+
+read(): Reads the file.
+close(): Closes the file.
+[pos]: Get an element by giving position. Starting with 0.
+
+Exercise 16:
+
+open(<filename>, 'w'): Open file in writing mode.
+truncate(): Cut the file, means delete all content.
+write(): Write a string, text to the file.
+
+Exercise 17:
+
+exists: Python exists () method is used to check whether specific file or directory exists or not.
+len: Get the lenght of a countable.
+random: The random module that randomize anything.
+random.randint(<num1>, <num2>): Choose a random number between two.
+time: The time module.
+time.time(): Count the time between two moments.
+time.sleep(<time>): The sleep () function suspends execution of the current thread for a given number of seconds. In case of single-threaded programs, sleep () suspends execution of the thread and process. However, the function suspends a thread rather than the whole process in multithreaded programs.
+abs: Returns the absolute value of a number.
+math: The math module.
+**: Power.
+math.pi: Gives you the absolute value of pi.
+round:  Returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
+
+Exercise 18:
+
+def: Create a function.
+: (colon): Represent an indented block
+*: All.
+arguments: Items that a function has.
+<function>(<arguments?>): Call a function with arguments or within.
+
+Exercise 19:
+
+No such a new character or symbol.
+
+Exercise 20:
+
+seek : Sets the file's current position at the offset.
+readline: Returns one line from the file.
++=: Adds a value to a string, integer.
+
+Exercise 21:
+
+return: Gives a value to the caller.

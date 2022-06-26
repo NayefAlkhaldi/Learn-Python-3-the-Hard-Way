@@ -1,0 +1,1 @@
+# I understand it. I understand how sorting words is working.

@@ -1,0 +1,2 @@
+Removing bytes on python doesn't breaks it.
+A lot has changed in Python since 2017.
