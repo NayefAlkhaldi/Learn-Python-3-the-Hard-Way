@@ -1,0 +1,3 @@
+Replace <> with the information you have.
+
+PS> python<version> <path-to-file>
