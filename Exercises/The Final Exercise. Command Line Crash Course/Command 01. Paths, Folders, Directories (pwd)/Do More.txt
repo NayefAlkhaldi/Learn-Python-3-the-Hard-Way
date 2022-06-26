@@ -1,0 +1,23 @@
+1:
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+print working directory.
+
+2:
+PS C:\Users\Nayef> pwd
+
+Path
+----
+C:\Users\Nayef
+
+PS C:\Users\Nayef>
+
+3:
+I already did it.

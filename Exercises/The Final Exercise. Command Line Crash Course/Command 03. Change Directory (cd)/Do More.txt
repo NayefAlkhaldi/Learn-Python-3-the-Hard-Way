@@ -1,0 +1,21 @@
+1:
+> cd temp/stuff/things/orange/apple
+
+2:
+> cd ../
+
+3:
+> cd ~
+
+4:
+> cd Documents <# C:\Users\Nayef\Documents #>
+
+5:
+> cd ../
+> cd Downloads <# C:\Users\Nayef\Downloads #>
+
+6:
+> cd AppData <# C:\Users\Nayef\AppData #>
+
+7:
+> <# I know already know that #>

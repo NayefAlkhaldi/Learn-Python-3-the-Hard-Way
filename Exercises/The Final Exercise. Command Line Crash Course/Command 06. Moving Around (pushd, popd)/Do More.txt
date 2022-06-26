@@ -1,0 +1,33 @@
+1:
+> cd ~
+> cd Documents
+> pushd "Basic Game"
+> popd
+> cd Downloads
+> ls
+> pushd sample
+> cd hi
+> ls
+> popd
+> cd ~
+
+2:
+> cd temp
+> rmdir i\like\icecream
+> mkdir i\like\bananas
+> pushd i\like
+> mkdir oranges
+> rmdir oranges
+> rmdir bananas
+> popd
+> rmdir i
+
+3:
+> <# pushd is used to push you to a directory. Popd makes you returns where
+you have pushed. #>
+
+4:
+> <# I'm using Windows. Windows actully need that. #>
+
+5:
+> <# Yes, I understand. #>

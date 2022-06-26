@@ -1,0 +1,30 @@
+1:
+> <# Done! #>
+
+2:
+> <# I'm not using unix #>
+
+3:
+> <# oh. Ok #>
+> dir -R
+> <# He prints every file and directory in one path! #>
+
+4:
+> cd ~
+> cd Contacts
+> ls
+> cd ../
+> cd Saved Games
+> ls
+> <# Done! #>
+
+5:
+!Notebook!
+
+1- -R. What does it means?
+I will answer that later.
+Later: -R means everything.
+
+6:
+
+> <# ok #>

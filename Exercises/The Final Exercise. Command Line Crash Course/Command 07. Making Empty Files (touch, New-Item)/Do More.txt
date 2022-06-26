@@ -1,0 +1,7 @@
+1 (windows):
+> cd ~
+> mkdir test
+> cd test
+> New-Item test\file.txt -type file
+> rmdir test
+> <# Done! #>
