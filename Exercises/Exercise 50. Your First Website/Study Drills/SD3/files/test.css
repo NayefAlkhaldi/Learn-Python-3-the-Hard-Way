@@ -1,0 +1,27 @@
+body {
+    background-image:url("https://th.bing.com/th/id/R.3ac7eb39e8ee61ff9e0e42f2f5792930?rik=MgrZl8Xqwxu1IQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2fb%2ff%2fd%2f115598.jpg&ehk=ozWg2J94kayjiJXoZi%2fQp0vBTObpRJE4G9n4fC1h7EA%3d&risl=&pid=ImgRaw&r=0");
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    font-size: 95px;
+    border: solid black 2px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}

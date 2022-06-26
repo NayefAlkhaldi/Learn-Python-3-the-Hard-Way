@@ -1,0 +1,46 @@
+PowerShell 7.2.4
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/powershell
+Type 'help' to get help.
+
+   A new PowerShell stable release is available: v7.2.5
+   Upgrade now, or check out the release page at:
+     https://aka.ms/PowerShell-Release?tag=v7.2.5
+
+PS C:\Windows\System32> pip install projects
+Requirement already satisfied: projects in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (1.0.9)
+Requirement already satisfied: mock>=2.0.0 in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (4.0.3)
+Requirement already satisfied: urwid in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (2.1.2)
+Requirement already satisfied: pyyaml in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (6.0)
+Requirement already satisfied: termcolor in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (1.1.0)
+WARNING: You are using pip version 22.0.4; however, version 22.1.2 is available.
+You should consider upgrading via the 'C:\Users\Nayef\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+PS C:\Windows\System32> pip uninstall projects
+Found existing installation: projects 1.0.9
+Uninstalling projects-1.0.9:
+  Would remove:
+    c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages\projects-1.0.9-py3.10.egg-info
+    c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages\projects\*
+    c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages\test\*
+    c:\users\nayef\appdata\local\programs\python\python310\scripts\p
+Proceed (Y/n)? y
+  Successfully uninstalled projects-1.0.9
+PS C:\Windows\System32> pip install projects
+Collecting projects
+  Using cached projects-1.0.9.tar.gz (43 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: mock>=2.0.0 in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (4.0.3)
+Requirement already satisfied: urwid in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (2.1.2)
+Requirement already satisfied: pyyaml in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (6.0)
+Requirement already satisfied: termcolor in c:\users\nayef\appdata\local\programs\python\python310\lib\site-packages (from projects) (1.1.0)
+Building wheels for collected packages: projects
+  Building wheel for projects (setup.py) ... done
+  Created wheel for projects: filename=projects-1.0.9-py3-none-any.whl size=48635 sha256=257dea322fee2ca69d097409df40847b050cb20ceee711de935b99c4323dc3f7
+  Stored in directory: c:\users\nayef\appdata\local\pip\cache\wheels\5c\f2\fd\84b39ab5dd0c9c628025cad9282db52d82ff1762cd5a407766
+Successfully built projects
+Installing collected packages: projects
+Successfully installed projects-1.0.9
+WARNING: You are using pip version 22.0.4; however, version 22.1.2 is available.
+You should consider upgrading via the 'C:\Users\Nayef\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+PS C:\Windows\System32>
