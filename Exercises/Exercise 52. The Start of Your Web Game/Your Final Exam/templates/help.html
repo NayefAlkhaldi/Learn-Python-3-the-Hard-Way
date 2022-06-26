@@ -1,0 +1,19 @@
+{% extends "layout_help.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles/help.css') }}">
+    <body>
+        <a href="/game">
+            <img src="https://cdn.onlinewebfonts.com/svg/img_204972.png"
+                 width=50px height=50px>
+        </a>
+        <h1> {{ room.name }} </h1>
+        <h2>Help</h2>
+        <p>{{ room.help_text }}</p>
+
+    </body>
+</html>
+
+{% endblock %}

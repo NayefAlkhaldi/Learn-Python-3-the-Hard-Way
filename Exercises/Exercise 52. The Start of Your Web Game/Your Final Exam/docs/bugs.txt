@@ -1,0 +1,8 @@
+1- The starred exeprisson. Instead, return you_died.html template.
+
+2- Returning you_died.html. Sometimes, when misunderstanding happens, flask throws it at the user.
+
+3- App secret key. It's unsafe to enter a random string by your own. So, I used secrets module to generate
+   a random string that's unvisible to anyone every time the website runs.
+
+4- The code is 4 digits so I fixed by making it 3 digits.

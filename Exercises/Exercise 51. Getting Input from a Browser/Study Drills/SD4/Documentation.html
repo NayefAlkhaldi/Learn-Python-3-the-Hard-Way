@@ -1,0 +1,114 @@
+<!--I made this documentation by my own!-->
+<!--Don't forget to run the code!-->
+
+<style>
+    * {
+        /* Default font style */
+        font-family: sans-serif;
+    }
+    
+    h1 {
+        font-family: Tahoma;
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        background-color: #dfdfdf;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    /* The alert message box */
+    .alert {
+      padding: 20px;
+      background-color: #f44336; /* Red */
+      color: white;
+      margin-bottom: 15px;
+    }
+    
+    /* The close button */
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+      color: black;
+    }
+    
+    .end {
+        border: dotted;
+        border-color: #dfdfdf;
+    }
+    
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How to install and active Apache in windows 11</title>
+    </head>
+<body>
+    <h1>How to install and active Apache in Windows</h1>
+        
+    <h2>Why Apache?</h2>
+    <p>Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source software available for free. It runs on 67% of all webservers in the world. It is fast, reliable, and secure. It can be highly customized to meet the needs of many different environments by using extensions and modules.<p>
+        
+    <h2>The setup</h2>
+        
+    <h3>Step 1: Downloading Apache</h3><p>Go to <a href="https://httpd.apache.org/">https://httpd.apache.org/</a>. Under Essentials, click Download!</p>
+    <img src="https://bit.ly/3zyrIwr"width="500px" height="300px">
+    <p>Under Apache HTTP Server 2.4.53 (httpd): 2.4.53 is the latest available version section, click on Files for Microsoft Windows. Next, Click on Apache lounge. After that, you'll see two versions of Apache, download what's compaitable with your operating system</p>
+    <p>
+    <pre>
+    </pre>
+    <h3>Step 2: Install Visual C++ Redistributable Visual Studio.		</h3><p>To run the program correctly, you must be sure that you installed Visual C++ Redistributable Visual Studio. Go to <a href="https://www.apachelounge.com/download/">https://www.apachelounge.com/download/</a>. You'll see two versions: vc_redist_x64, vc_redist_x86. Download what's compaitable with your operating system.</p>
+    <pre>
+    </pre>
+    <h3>Step 3: Extracting Files</h3><p>The file should be downloaded now, so extract it, move the ( Apache24 ) folder to local disk (Visual C++ Redistributable Visual Studio too.)</p>
+    <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>Warning! </strong> Do not move the entire file. You must onlly move Apache24 to local disk which is located in 'httpd-2.4.53-win64-VS16'.
+    </div>
+    <pre>
+    </pre>
+    <h3>Step 4: Adding the Command</h3><p>Add a path to system environment variables to simulate a new command. Open file explorer, right click on This PC, Go to Properties -> Advanced. Click on the Environment Variables button below. In User variables, double click on path. Click Browse -> Go to C drive Apache24 folder -> Select bin folder -> Save changes. Now the command is active.</p>
+    <img src="https://bit.ly/38P1paf" width="250px" height="250px">
+    <p>Save changes. The command now is accessible.</p>
+    <pre>
+    </pre>
+    <h3>Step 5: Command Prompt</h3><p>Open command prompt in administrator mode and type this: </p>
+    <img src="https://bit.ly/3mly75X" width="460px" height="300px">
+        <p>On your browser, type  ( localhost ) and hit enter. You should be able to see this message: </p>
+    <img class="end" src="https://bit.ly/3NS2MUd" width="550px" height="350px">
+    <p>And now, close the server by typing (httpd.exe -k stop -n "Apache2.4") on command propmt.</p>
+    <pre>
+    </pre>
+    <h2>Fixing Bugs: </h2>
+    <h3>Incorrect path: </h3><p>Sometimes, the path may be incorrect. So all you have to do is to change httpd .conf file. Open the file, on line  37, change ( Define SRVROOT "/Apache24" ) to where Apache file is located</p>
+    <pre>
+    </pre>
+    <h3>Port Number: </h3><p>When you start Apache, make sure it's actully running: </p>
+    <img src="https://bit.ly/3xifW7B"width="500px" height="300px"/>
+    <p>If not, right click it and run it. If Apache still won't start, maybe there's a program on your pc is using port 80. That causes to stop Apache from running (Apache program use port 80). To fix that, you should make some changes to httpd.conf file ( The file located on C:\Apache24\conf\httpd.conf). Open the file, on line 60, change ( Listen 80 ) to (Listen *:80) (That tells Apache to listen to all ports) Save the file and close it.</p>
+    <pre>
+    </pre>
+    <h2>Common Questions: </h2>
+    <strong><p>How to edit the index?</p></strong>
+    <p>Answer: search for index.html. Add html and css code in, and save it.</p>
+    <pre>
+    </pre>
+    <strong><p>When I try to run Apache, this message pops up: (OS 5) <mark> Access is denied</mark>.  : AH10014: Failed to open the 'Apache2.4' service</p></strong>
+    <p>Answer: Make sure you run Command Pormpt as administrator</p> 
+    </body>
+</html>

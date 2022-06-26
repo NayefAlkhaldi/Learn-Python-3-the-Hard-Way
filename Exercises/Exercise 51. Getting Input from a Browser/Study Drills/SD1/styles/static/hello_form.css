@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+    background-color: #f2f2f2;
+    font-family: tahoma;
+}
+
+*::selection {
+  background: #6fc2a1;
+}
+
+form {
+	margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+	background-color: white;
+    padding: 60px;
+}
+
+h1 {
+	position: relative;
+    top: 60px;
+}
+
+input[type=text] {
+	text-align: center;
+    font-size: 15px;
+    color: green;
+  	width: 100%;
+  	padding: 12px;
+  	margin: 8px 0;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+
+input[type=submit] {
+	position: relative;
+    top: 15px;
+	cursor: pointer;
+	margin-top: 13px;
+    width: 100%;
+    height: 6.5%;
+    border: none;
+}
+
+input[type=submit]:hover {
+	background-color: #e5e5e5;
+}

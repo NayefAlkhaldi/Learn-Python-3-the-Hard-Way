@@ -1,0 +1,35 @@
+{% extends "layout_leaderboard_GFPP.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles/leaderboard.css') }}">
+    <body>
+        <a href="/games">
+            <img src="https://db3pap006files.storage.live.com/y4mS0opryAjduZX_STu2Hvpx3awL65JqsK0CtNzF9dAPvGLRT7tVe5C4vGI6AQptrXg5aGqqRkH-srX5BbdWVR7OgAkBFbdbZuUn2yUSEFZXuU0e4mdaBR1zreyAa8hEv8aikMwlSSU1duK_I431m8WeR6nr3L-oqwMQegsYaWqjnf7GE_02krrxmk4Ja0wXaee?width=1024&height=1024&cropmode=none"
+                 width=50px height=50px>
+        </a>
+        
+    	<h1>Gothons From Planet Percal #25 LeaderBoard</h1>
+        {% if __winners__ %}
+            <table>
+                <tr>
+                    <th class="title">Rank</th>
+                    <th>Name</th>
+                    <th>Time</th>
+                </tr>
+                {% for count, winner in winners %}
+                <tr>
+                    <td>{{ count+1 }}</td>
+                    <td>{{ winner }}</td>
+                    <td>{{ winning_times[count] }}</td>
+                </tr>
+                {% endfor %}
+        {% else %}
+            <h3>No winners right now.</h3>
+        {% endif %}
+		</table>
+    </body>
+</html>
+
+{% endblock %}

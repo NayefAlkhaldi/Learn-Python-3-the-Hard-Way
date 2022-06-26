@@ -1,0 +1,14 @@
+*::selection {
+    background: lightcoral;
+}
+
+body {
+	background-color: #f2f2f2;
+	font-family: Arial;
+    color: red; 
+    font-size: 2em;
+	text-align: center;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}

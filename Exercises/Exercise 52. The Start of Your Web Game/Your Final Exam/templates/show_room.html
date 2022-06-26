@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles/style.css') }}">
+    </head>
+
+    <body>
+        {% if room.name != 'The End' %}
+            <a href="/GothonsFromPlanetPercal/help">
+                <img class="help" src="https://www.pngkey.com/png/full/264-2648911_font-help-comments-play-button-icon-png.png" width="30px" height="30px">
+            </a>
+        {% endif %}
+
+        <a href="/games">
+            <img class="back" src="https://db3pap006files.storage.live.com/y4mS0opryAjduZX_STu2Hvpx3awL65JqsK0CtNzF9dAPvGLRT7tVe5C4vGI6AQptrXg5aGqqRkH-srX5BbdWVR7OgAkBFbdbZuUn2yUSEFZXuU0e4mdaBR1zreyAa8hEv8aikMwlSSU1duK_I431m8WeR6nr3L-oqwMQegsYaWqjnf7GE_02krrxmk4Ja0wXaee?width=1024&height=1024&cropmode=none"
+                 width=50px height=50px>
+        </a>
+
+        <h1> {{ room.name }} </h1>
+        {% if room.name != "death" and not death_text %}
+            <pre>
+                {{ room.description }}
+            </pre>
+        {% endif %}
+
+        {% if room.name in ["death", "The End"] or death_text %}
+            {% if death_text %}
+                <pre>{{ death_text }}</pre>
+            {% endif %}
+            
+            {% if room.name == "The End" %}
+                <p>
+                    <a href="/games">Return to menu</a>
+                </p>
+            {% elif room.name == "death" %}
+                <p>
+                    <a href="/GothonsFromPlanetPercal">Play again?</a>
+                </p>
+            {% endif %}
+
+        {% else %}
+            <p>
+                <form action="/game" method="POST">
+                - <input type="text" name="action"> <input type="SUBMIT">
+                </form>
+            </p>
+            
+        {% endif %}
+{% endblock %}
