@@ -1,44 +1,44 @@
 body {
-    background-image: url("https://db3pap006files.storage.live.com/y4mToWu8Soip7zXThRml9fLQbOarDOWSXd1BYbCZUWatgO9RxUn0eEACaH4AxwYA57O-mdwpNTgy-spYUotJ8d9QGkE5H0zVn3fK5ErBo2mIcFEOFRQbd3PM85sDsnLW0DBRtoFwknOju1CNBKWamXSfKOMadts1wnwK9zLsq1GPWw02JYqQmOgQ9pRqPjMsB3v?width=1600&height=1200&cropmode=none");
-    font-family: "Asap", sans-serif;
+    	background-image: url("https://db3pap006files.storage.live.com/y4mToWu8Soip7zXThRml9fLQbOarDOWSXd1BYbCZUWatgO9RxUn0eEACaH4AxwYA57O-mdwpNTgy-spYUotJ8d9QGkE5H0zVn3fK5ErBo2mIcFEOFRQbd3PM85sDsnLW0DBRtoFwknOju1CNBKWamXSfKOMadts1wnwK9zLsq1GPWw02JYqQmOgQ9pRqPjMsB3v?width=1600&height=1200&cropmode=none");
+    	font-family: "Asap", sans-serif;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -100px;
+    	color: white;
+    	text-align: center;
+    	position: relative;
+   	top: -100px;
 }
 
 h2 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 10px;
+    	color: white;
+    	text-align: center;
+    	position: relative;
+    	top: 10px;
 }
 
 span {
-    position: relative;
-    top: -100px;
+    	position: relative;
+    	top: -100px;
 }
 
 #CreateAcc {
-    color: white;
-    margin-left: 0px;
-    margin-top: 0px;
+    	color: white;
+    	margin-left: 0px;
+    	margin-top: 0px;
 }
 
 #Profile {
-    border: groove;
-    border-color: white;
+    	border: groove;
+    	border-color: white;
 }
 #GFPP {
-    position: relative;
-    border: solid;
-    border-color: white;
-    top: 170px;
-    right: 355px;
-    cursor: pointer;
+    	position: relative;
+    	border: solid;
+    	border-color: white;
+    	top: 170px;
+    	right: 355px;
+    	cursor: pointer;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -47,13 +47,13 @@ a:link, a:visited, a:hover, a:active {
 
 .leaderbord {
 	color: black;
-    width: 350px;
-    border-color: red;
-    cursor: pointer;
-    position: relative;
-    top: -80px;
-    background-color: white;
-    position: relative;
+    	width: 350px;
+    	border-color: red;
+    	cursor: pointer;
+    	position: relative;
+    	top: -80px;
+    	background-color: white;
+    	position: relative;
 }
 
 .leaderbord:hover {
