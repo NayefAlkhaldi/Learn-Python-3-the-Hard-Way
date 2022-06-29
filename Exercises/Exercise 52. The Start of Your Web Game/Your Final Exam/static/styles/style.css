@@ -3,8 +3,8 @@ body {
 }
 
 * {
-	font-family: Tahoma;
-    text-align: center;
+    	font-family: Tahoma;
+    	text-align: center;
 }
 
 .back {
@@ -24,8 +24,8 @@ h1 {
 
 input[type=text] {
 	padding: 12px 20px;
-    color: blue;
-    border: none;
+    	color: blue;
+    	border: none;
 }
 
 input[type=submit] {
