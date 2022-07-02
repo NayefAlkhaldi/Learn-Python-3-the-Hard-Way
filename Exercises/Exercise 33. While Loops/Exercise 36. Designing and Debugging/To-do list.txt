@@ -1,6 +1,0 @@
-1̶- W̶r̶i̶t̶e̶ ̶t̶h̶e̶ ̶s̶t̶o̶r̶y.
-2- ̶M̶a̶k̶e̶ ̶f̶u̶n̶c̶t̶i̶o̶n̶s̶ ̶a̶n̶d̶ ̶u̶s̶e̶ ̶p̶a̶s̶s̶ ̶t̶o̶ ̶b̶l̶o̶c̶k̶ ̶i̶t.
-3- ̶U̶n̶d̶e̶r̶ ̶e̶v̶e̶r̶y̶ ̶f̶u̶n̶c̶t̶i̶o̶n̶,̶ ̶w̶r̶i̶t̶e̶ ̶t̶h̶e̶ ̶s̶t̶o̶r̶y.
-4- ̶U̶n̶d̶e̶r̶ ̶e̶v̶e̶r̶y̶ ̶f̶u̶n̶c̶t̶i̶o̶n̶,̶ ̶w̶r̶i̶t̶e̶ ̶t̶h̶e̶ ̶c̶h̶o̶i̶c̶e̶s.
-5- D̶o̶ ̶a̶ ̶s̶a̶v̶i̶n̶g̶ ̶t̶e̶x̶t̶ ̶s̶o̶ ̶t̶h̶e̶ ̶u̶s̶e̶r̶ ̶h̶a̶s̶ ̶t̶h̶e̶ ̶w̶i̶n̶n̶i̶n̶g̶ ̶t̶i̶m̶e̶s̶ ̶s̶a̶v̶e̶d.
-6- ̶D̶e̶b̶u̶g̶ ̶y̶o̶u̶r̶ ̶c̶o̶d̶e̶ ̶a̶n̶d̶ ̶t̶r̶y̶ ̶t̶o̶ ̶f̶i̶x̶ ̶m̶i̶s̶t̶a̶k̶e̶s̶ ̶a̶s̶ ̶m̶u̶c̶h̶ ̶a̶s̶ ̶p̶o̶s̶s̶i̶b̶l̶e.
