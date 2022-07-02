@@ -1,2 +1,2 @@
-username = 'BBBBBB'
-email = 'B@B.com'
+username = ''
+email = ''
