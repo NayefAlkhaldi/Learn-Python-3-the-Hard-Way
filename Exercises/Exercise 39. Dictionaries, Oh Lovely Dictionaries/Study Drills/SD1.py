@@ -65,7 +65,7 @@ target = 1
 total = len(Arab_Countries)
 total_kms = 0
 
-for x in range(total):
+for _ in range(total):
 
     Mylist = list(Arab_Countries_Size.items())
     current_list = Mylist[number]; number += 1
