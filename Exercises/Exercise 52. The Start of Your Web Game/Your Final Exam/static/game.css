@@ -1,0 +1,35 @@
+* {
+    font-family: Comic Sans MS;
+}
+
+div {
+    background-color: #e3e3e3;
+    padding: 2px;
+}
+
+
+#choice {
+    color: green;
+    outline: transparent;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+img {
+    vertical-align:  bottom;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0px;
+    padding: 0px;
+    
+}
+
+#hint {
+    color: #353596;
+}

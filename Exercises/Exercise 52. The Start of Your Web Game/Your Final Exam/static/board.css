@@ -1,0 +1,13 @@
+th, tr {
+    border: 2.5px solid black;
+    padding: 5px;
+}
+
+#username {
+    width: 100px;
+}
+
+#score {
+    width: 20px;
+    color: blue;
+}
