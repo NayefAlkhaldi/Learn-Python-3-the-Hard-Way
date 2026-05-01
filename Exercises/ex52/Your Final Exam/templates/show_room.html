@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div>
+    <h1>{{ room.name }}</h1>
+
+    <link rel="stylesheet" href="../static/game.css">
+    <link rel="stylesheet" href="../static/board.css">
+    <script src="{{ url_for('static', filename='scripts/hint.js') }}"></script>
+
+    <pre>
+    {{ room.description }}
+    {% if room.name not in ["death", "The End Winner", "The End Loser"] %}
+    Hint: <button onclick="help()"><img src="{{ url_for('static', filename='images/bulb.png') }}" width="40" height="40"></button>
+    <p id="hint" style="display: none;">    {{ room.hint }}</p>
+    {% endif %}
+    </pre>
+
+    {% if room.name in ["death", "The End Winner", "The End Loser"] %}
+        {% if room.name == "The End Winner" %}
+            <table>
+                <h2><b>Latest Players Records</b></h2>
+                <tr>
+
+                    <th>Username</th><th>Time</th>
+                </tr>
+                {% for d in users.keys() %}
+                    <tr>
+                        <th id="username">{{ users[d]['username'] }}</th><th id="time">{{ users[d]['time'] }}s</th>
+                    </tr>
+                {% endfor %}
+            
+            </table>
+        {% endif %}
+        <p><a href="/">Play Again?</a></p>
+
+    {% else %}
+        <p>
+            <form action="/planet_percal" method="POST">
+                - <input type="text" name="action" id="choice"> <input type="SUBMIT">
+            </form>
+        </p>
+</div>
+{% endif %}
+
+{% endblock %}

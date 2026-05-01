@@ -1,0 +1,17 @@
+* {
+    padding: 10px;
+    font-family: Comic Sans MS;
+}
+
+#button {
+    background-color: #bd7a4a;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #d69363;
+}
+
+p {
+    color: red;
+}
