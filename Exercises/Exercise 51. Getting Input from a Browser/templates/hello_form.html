@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="../static/style.css">
+
+<div>
+
+<h1>Fill Out This Form</h1>
+
+<form class="start" action="/hello" method="POST">
+    A Greeting: <input id="data" type="text" name="greet">
+    <br />
+    Your Name: <input id="data" type="text" name="name">
+    <br />
+    <input id="submit" type="submit">
+</form>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+* {
+	font-family: sans-serif;
+}
+
+h1 {
+	color: SlateBlue;
+}
+
+input, #data:focus {
+	outline: transparent;
+	border-width: 2px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+div {
+	background-color: #EDEDED;
+    padding: 25px;
+}
+.start {
+	color: #5C5C5C;
+    font-size: 18px;
+}
+
+#submit {
+	float: right;
+    margin-top: -30px;
+    padding: 10px;
+    width: 85px;
+    cursor: pointer;
+
+}
+
+#submit:hover {
+	background-color: #D1D1D1;
+}
