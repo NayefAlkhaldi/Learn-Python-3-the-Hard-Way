@@ -123,7 +123,7 @@ central_corridor.add_paths({
     'player tell joke': laser_weapon_armory
 })
 
-# Changes: START = 'central_corridor' --> START = central_corridor
+
 START = 'Central Corridor'
 
 rooms = {'Central Corridor': central_corridor,
